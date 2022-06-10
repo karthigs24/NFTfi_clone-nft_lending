@@ -25,7 +25,7 @@ import "../utils/ContractKeys.sol";
  * @author NFTfi
  * @dev
  */
-contract AirdropReceiver is ERC721Enumerable, ERC721Holder, ERC1155Holder, Initializable, ReentrancyGuard {
+contract AirdropReceiver is ERC721Enumerable,ERC721Holder, ERC1155Holder, Initializable, ReentrancyGuard {
     using Address for address;
     using SafeERC20 for IERC20;
 
